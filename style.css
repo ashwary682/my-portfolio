@@ -1,0 +1,266 @@
+ *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+         
+           background-color: rgb(28, 231, 193);
+           color: white;
+           font-family: 'Poppins',sans-serif;
+        }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li  {
+    list-style: none ;
+    margin: 0 20px;
+   
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.02rem;
+}
+main hr{
+    border: 0;
+    background: rgb(221, 255, 32);
+    height: 1.5px;
+    margin: 40px 84px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+margin-top: 150px;
+}
+.firstSection >div{
+    width: 38%;
+}
+.rightSection img{
+    width: 60% ;
+    margin-top: 1%;
+
+}
+.leftSection{
+  color: rgb(72, 73, 72);
+    
+    font-size: 2rem;
+
+}
+.purple{
+    color: rgb(51, 24, 255) ;
+
+}
+.text-gray{
+    color: gray;
+    font-size: 1rem;
+}
+#element{
+     color: rgb(51, 24, 255) ;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+    
+}
+.secondSection .box{
+  height: 2px;
+    background: white;
+    margin: 56px 0;
+    display: flex;
+    width: 80vw;
+}
+.secondSection .vertical{
+    height: 100px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-title{
+position: relative;
+top: 75px;
+width: 150px;
+}
+.vertical-desc{
+    position: relative;
+    top:86px ;
+    color: gray;
+    width: 150px;
+}
+footer{
+    background-color: rgb(36, 12, 68);
+    height: 113px; ;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer-rights{
+    text-align: center;
+    color: grey;
+    padding: 30px;
+}
+.btn{
+    padding:10px ;
+    background: rgba(38, 38, 187, 0.858);
+    color: rgb(217, 242, 56);
+    border: 2px white;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    justify-content: center;
+    }
+.btn a{
+    color: yellow;
+    text-decoration: none;
+}
+.top{
+    height: 40vw;
+}
+.content-section h1{
+    font-size: 36px;
+    color: #c9b74d;
+    margin-bottom:1%;
+    margin-top: 10px;
+    margin-left: 40%;
+
+
+}
+.content-section {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: auto;
+    color: #260d72;
+    
+}
+.content-section p{
+    margin-top: 200px;
+    color: #140b51;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+ .me {
+    
+   width: auto;
+   height: 400px;
+   margin-left: 3%;
+   margin-top: 1%;
+   margin-bottom: -6%;
+   margin-left: 30%;
+   display: flex;
+   
+ }
+ .projects{
+    width: 500px;
+    margin-top: 7%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px;
+ }
+ .bt{
+    padding:10px ;
+    background: rgba(38, 38, 187, 0.858);
+    color: rgb(217, 242, 56);
+    border: 2px white;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+   justify-content: center;
+    margin-top: 5%;
+   margin-left: auto;
+   margin-right: auto;
+    gap: 15px;
+   
+    }
+.bt a{
+    color: yellow;
+    text-decoration: none;
+}
+.Project h2{
+    font-size: 35px;
+    color: #140b51;
+    justify-content: center;
+    display: flex;
+}
+.contact-container form{
+    background: rgb(7, 5, 60);
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+
+}
+.contact-container h1{
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    font-size: 50px;
+    justify-content: center;
+    color: #130245;
+}
+form input{
+    border: 0;
+    margin: 10px 0px;
+    padding: 20px;
+    outline: none;
+    background-color: #130245;
+}
+form textarea{
+    border: 0;
+    margin: 10px 0px;
+    padding: 20px;
+    outline: none;
+    background-color: #eee8ff;
+}
+form button{
+    padding:10px ;
+    background: rgba(38, 38, 187, 0.858);
+    color: rgb(217, 242, 56);
+    border: 2px white;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+   justify-content: center;
+    margin-top: 5%;
+   margin-left: auto;
+   margin-right: auto;
+    gap: 15px;
+   
+
+}
+.portfolio  h1{
+    align-items: center;
+    display: flex;
+    color:black;
+}

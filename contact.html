@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script1.js">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+      emailjs.init({
+        publicKey: "KaShOFDii8dOE-Ppt",
+      });
+   })();
+</script>
+
+</head>
+<body>
+        <header>
+        <nav>
+            <div class="left">Ashwary's Portfolio</div>
+            <div class="right">
+                <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="Projects.html">Projects</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="contact.html">Contact me</a></li>
+ </ul>
+        </div>
+        </nav>
+    </header>
+    
+
+<div class="contact-container">
+    <h1>Contact me </h1>
+    <form>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Email-Id" required>
+        <textarea id="msg" rows="4" placeholder="How can we help you?"></textarea>
+        <button type="submit" onclick="SendEmail">Send</button>
+
+        
+
+    </form>
+    <p>This form is not working currently due to some technical problem but <br>
+    you can Contact me through gmail - kumawatashwary596@gmail.com</p>
+
+
+    
+    
+</body>
+</html>
